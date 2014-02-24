@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" 
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	      xsi:schemaLocation="http://openbox.org/                 
+				  file:///usr/share/openbox/menu.xsd">
+
+  <menu id="root-menu" label="Openbox">
+
+    <menu id="application" label="Application">
+      <item label="PDFViewer">
+	<action name="Execute">  
+	  <command>evince</command>  
+	</action>  
+      </item>
+      <item label="Dia">
+	<action name="Execute">  
+	  <command>dia</command>  
+	</action>  
+      </item>
+      <item label="ImageViewer">
+	<action name="Execute">  
+	  <command>gpicview</command>  
+	</action>  
+      </item>
+    </menu>
+    <separator/>
+
+    <item label="Reconfigure">
+      <action name="Reconfigure"/>
+    </item>
+    <item label="Restart">
+      <action name="Restart"/>
+    </item>
+    <item label='obconf' >
+      <action name='Execute'><execute>obconf</execute></action>
+    </item>
+    <item label="Exit">
+      <action name="Exit"/>
+    </item>
+
+  </menu>
+</openbox_menu>
