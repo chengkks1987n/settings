@@ -1,2 +1,3 @@
-~/.config/openbox/menu.xml
-~/.config/openbox/rc.xml
+~/.config/openbox/menu.xml #if you want to use the default menu, remove this file
+
+~/.config/openbox/rc.xml #keybind settings
