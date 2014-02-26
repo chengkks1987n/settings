@@ -1,3 +1,6 @@
 ~/.config/openbox/menu.xml #if you want to use the default menu, remove this file
 
-~/.config/openbox/rc.xml #keybind settings
+~/.config/openbox/rc.xml 
+# keybind settings
+# sound settings are here too, use tool amixer.
+
