@@ -1,0 +1,12 @@
+1. install pppoe
+2. add user to sudo 
+	run command : adduser ck sudo
+	run command : visudo
+	add a line %ck ALL=(ALL:ALL) ALL , just like the exist line.
+3. add source.list
+4. configure apt-get
+	edit /etc/apt/apt.conf
+5. install xorg openbox webbrowser
+6. install gdb gcc g++ git make mit-scheme and other softwares drivers.
+
+
