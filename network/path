@@ -1,8 +1,10 @@
 /etc/network/interfaces
 
 # if you want use pppoe, setup pppoe and pppoeconf, then run pppoeconf as root
-# set the eth0 to dhcp, and remove the auto of eth0. just like this file.
 
 # restart network user command:
 # 	  /etc/init.d/networking restart
   	  
+# for wireless see : https://wiki.debian.org/WiFi#Configure_Interface
+#      	       	     https://wiki.debian.org/WiFi/HowToUse
+
