@@ -116,4 +116,8 @@ export LANG=en_US.UTF-8
 export LC_ALL="en_US.UTF-8"
 export JAVA_HOM=/home/ck/jdk1.6.0_45
 export PATH=$PATH:$JAVA_HOM/bin
+
+alias la='ls -a'
+alias lla='ls -al'
+alias ll='ls -l'
 # !ck!
