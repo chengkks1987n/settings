@@ -1,0 +1,15 @@
+
+auto lo
+iface lo inet loopback
+
+#auto eth0
+iface eth0 inet manual
+
+auto wlan0
+iface wlan0 inet dhcp
+      wpa-ssid CFC1905
+      wpa-psk nuaafamily
+#      wireless-mode Master
+#      wireless-key on
+#      pre-up ip link set wlan0 up
+#      pre-up iwconfig wlan0 essid Phicomm_988BF0

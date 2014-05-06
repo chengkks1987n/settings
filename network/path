@@ -7,4 +7,4 @@
   	  
 # for wireless see : https://wiki.debian.org/WiFi#Configure_Interface
 #      	       	     https://wiki.debian.org/WiFi/HowToUse
-
+# see the example file interfaces.wireless
