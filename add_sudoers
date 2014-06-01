@@ -1,0 +1,9 @@
+0. install sudo
+	apt-get install sudo
+1. run command :
+	chmod +w /etc/sudoers
+	vi /etc/sudoers
+2. add the follow line to file /etc/sudoers, ck is my username.
+	ck ALL=(ALL) ALL
+3. run command 
+	chmod -w /etc/sudoers

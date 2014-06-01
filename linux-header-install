@@ -1,0 +1,3 @@
+install linux-headers，use the command:
+	apt-get install linux-headers-$(uname -r)
+

@@ -1,0 +1,16 @@
+/etc/network/interfaces
+
+@ if you want use pppoe, install pppoe and pppoeconf, then run pppoeconf as root
+
+@ restart network:
+ 	  /etc/init.d/networking restart
+
+@ use wireless
+ for wireless see : https://wiki.debian.org/WiFi#Configure_Interface
+      	       	     https://wiki.debian.org/WiFi/HowToUse
+ see the example file interfaces.wireless
+
+ install the wireless driver firstly,in my pc, it's to download the
+ brcm43225 driver, install it by run :
+	dpkg -i firmware*_all.deb
+ install wireless-tools and wpasupplicant

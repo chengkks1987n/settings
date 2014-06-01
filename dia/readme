@@ -1,0 +1,2 @@
+ solve the dia crash bug:
+	 copy the file persistence to ~/.dia/persistence.

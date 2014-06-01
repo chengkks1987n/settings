@@ -1,0 +1,8 @@
+@ to use self-define menu
+	copy the file menu.xml to ~/.config/openbox/menu.xml
+  or you will to use the default menu
+
+@ the file rc.xml include the keybind settings and sound settings
+  compare it to the file ~/.config/openbox/rc.xml 
+  for the sound settings, use tool amixer, install it first
+

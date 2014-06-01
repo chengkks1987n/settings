@@ -1,0 +1,2 @@
+in gdb, add some useful command for C++ STL:
+	copy the file gdbinit to  ~/.gdbinit
