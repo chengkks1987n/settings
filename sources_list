@@ -1,0 +1,23 @@
+1. add the follow sources to /etc/apt/sources.list,
+   emacs24 is in testing
+
+deb http://mirrors.163.com/debian wheezy main contrib non-free  
+deb-src http://mirrors.163.com/debian wheezy main contrib non-free  
+
+deb http://mirrors.163.com/debian stable main contrib non-free  
+deb-src http://mirrors.163.com/debian stable main contrib non-free  
+
+deb http://mirrors.163.com/debian testing main contrib non-free  
+deb-src http://mirrors.163.com/debian testing main contrib non-free  
+
+#deb http://mirrors.163.com/debian unstable main contrib non-free  
+#deb-src http://mirrors.163.com/debian unstable main contrib non-free  
+
+deb http://security.debian.org/ wheezy/updates main
+deb-src http://security.debian.org/ wheezy/updates main
+
+#deb http://http.debian.net/debian wheezy main contrib non-free
+#deb http://mirrors.ustc.edu.cn/debian wheezy main contrib non-free
+
+2. run command:
+	apt-get update.
