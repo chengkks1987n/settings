@@ -6,3 +6,4 @@
   compare it to the file ~/.config/openbox/rc.xml 
   for the sound settings, use tool amixer, install it first
 
+@ the openbox startup script is in file autostart.
