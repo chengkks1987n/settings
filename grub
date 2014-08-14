@@ -1,0 +1,5 @@
+set the default OS:
+
+1.edit file /etc/default/grub,
+ change "GRUB_DEFAULT=0" to what you want.
+2. run command: sudo update-grub 
